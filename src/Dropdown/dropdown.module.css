@@ -1,0 +1,51 @@
+/* Styling for the initial option or select buttons */
+.initialOption{
+    background-color: rgba(255, 0, 0, 0.799);
+    display: flex;
+    justify-content: center;
+    margin-left: 39%;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 23%;
+    height: 9vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: rgb(220, 220, 211);
+}
+
+/* Style of the optrion div, in which the list arrayLoop is running */
+.option{
+    display: flex;
+    /* margin-top: 42px; */
+    padding-left: 10px;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+}
+/* Single div */
+.singleOption{
+    /* margin: 10px; */
+    
+    display: flex;
+    background-color: rgba(13, 13, 202, 0.756);
+    justify-content: center;
+    width: 23%;
+    /* padding-left: 20px; */
+    color: white;
+    font-size: 20px;
+    height: 6vh;
+    padding: 0px;
+    margin-left: 39%;
+}
+
+.singleOption:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid blue;
+    color: black;
+}
